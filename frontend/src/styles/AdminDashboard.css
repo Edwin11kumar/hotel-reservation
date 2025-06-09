@@ -1,0 +1,153 @@
+.admin-dashboard {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-dashboard__heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.admin-dashboard__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.admin-dashboard__input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #bdc3c7;
+  flex: 1 0 180px;
+  min-width: 150px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.btn-submit {
+  background-color: #27ae60;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #219150;
+}
+
+.btn-cancel {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #c0392b;
+}
+
+.admin-dashboard__hotel-list,
+.admin-dashboard__booking-list {
+  margin-bottom: 30px;
+}
+
+.admin-dashboard__hotel-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.admin-dashboard__booking-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #fafafa;
+  color: #34495e;
+}
+
+.btn-approve {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-approve:hover {
+  background-color: #219150;
+}
+
+.btn-reject {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-reject:hover {
+  background-color: #c0392b;
+}
+
+.admin-dashboard__user-details {
+  border: 1px solid #ddd;
+  padding: 16px;
+  background: #fff;
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+.btn-close {
+  margin-top: 12px;
+  background-color: #2980b9;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-close:hover {
+  background-color: #1c5980;
+}
+
+.btn-details {
+  margin-left: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-details:hover {
+  background-color: #2980b9;
+}

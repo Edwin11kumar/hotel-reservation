@@ -1,0 +1,90 @@
+.user-dashboard {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.user-dashboard h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.user-dashboard__hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.user-dashboard__hotel-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  width: 220px;
+  background: #fafafa;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.user-dashboard__hotel-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.user-dashboard__hotel-image {
+  border-radius: 6px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.btn-book {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-book:hover {
+  background-color: #1c5980;
+}
+
+.user-dashboard__booking-form {
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.user-dashboard__input {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #bdc3c7;
+  outline: none;
+}
+
+.user-dashboard__input:focus {
+  border-color: #2980b9;
+}
+
+.btn-book-submit {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border: none;
+}
+
+.btn-book-submit {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-book-submit:hover {
+  background-color: #219150;
+}
